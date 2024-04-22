@@ -1,7 +1,7 @@
 /* import fonts */
 @font-face {
     font-family: dana;
-    src: url(fonts/dana-cufonfonts/dana\ black.ttf);
+    src: url(../fonts/dana-cufonfonts/dana\ black.ttf);
     font-weight: 800;
 }
 

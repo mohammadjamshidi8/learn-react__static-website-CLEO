@@ -13,7 +13,7 @@ export default function Menu() {
   };
 
   return (
-    <div className="relative mobile-container md:tablet-container xl:desktop-container mt-6 flex justify-between items-center font-dana">
+    <div className="relative mobile-container md:tablet-container xl:desktop-container mt-6 flex justify-between items-center">
       {/* mobile menu start */}
       <div
         id="mobile-menu"
