@@ -10,7 +10,7 @@ export default {
         dana : ['dana']
       },
       colors: {
-        primary : "var(--primary)"
+        primary : '#415678',
       }
     },
   },
