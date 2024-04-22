@@ -1,0 +1,41 @@
+/* import fonts */
+@font-face {
+    font-family: IRANSans;
+    src: url(../fonts/IRANSans/IRANSans.ttf);
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(../fonts/IRANSans/IRANSans_Black.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: dana;
+    src: url(../fonts/dana-cufonfonts/dana\ black.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: dana;
+    src: url(../fonts/dana-cufonfonts/dana\ bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: dana;
+    src: url(../fonts/dana-cufonfonts/dana\ medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: dana;
+    src: url(../fonts/dana-cufonfonts/dana\ light.ttf);
+    font-weight: 300;
+}
+
+/* colors */
+:root {
+    --primary : #415678;
+}
+

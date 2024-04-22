@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    body {
+        @apply font-dana
+    }
+
+    .mobile-container {
+        @apply w-11/12 mx-auto
+    }
+
+    .tablet-container {
+        @apply w-9/12 mx-auto
+    }
+
+    .desktop-container {
+        @apply w-[60%] mx-auto
+    }
+
+    #menu li {
+        @apply text-black text-opacity-70 hover:text-opacity-100 transition-opacity duration-300
+    }
+}

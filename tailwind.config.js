@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dana : ['dana']
+      },
+      colors: {
+        primary : "var(--primary)"
+      }
+    },
   },
   plugins: [],
 }
