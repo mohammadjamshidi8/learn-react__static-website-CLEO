@@ -23,4 +23,8 @@
     #menu li {
         @apply text-black text-opacity-70 hover:text-opacity-100 transition-opacity duration-300
     }
+
+    .custom-list-item {
+        @apply relative before:absolute before:w-2 before:h-2 before:bg-primary before:rounded-full before:top-1/2 before:-translate-y-1/2 before:-right-4
+    }
 }

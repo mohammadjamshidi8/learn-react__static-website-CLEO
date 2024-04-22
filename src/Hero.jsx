@@ -3,7 +3,7 @@ import headerImage from './assets/images/header-img.png'
 
 export default function Hero() {
   return (
-    <div className="mobile-container md:tablet-container xl:desktop-container flex flex-col md:flex-row md:gap-x-4 md:justify-between gap-y-10 mt-14 font-dana text-lg">
+    <div className="mobile-container md:tablet-container xl:desktop-container flex flex-col md:flex-row md:gap-x-4 md:justify-between gap-y-10 mt-20 font-dana text-lg">
       {/* hero text container start */}
       <div className="space-y-10 md:w-1/2">
         <div className="space-y-3 text-5xl font-black">
@@ -36,7 +36,7 @@ export default function Hero() {
       {/* hero section banner start */}
 
       <div className="flex justify-center md:w-1/2">
-        <img src={headerImage} className="max-w-[500px] md:max-w-[400px] aspect-video object-contain" alt="header-banner" />
+        <img src={headerImage} className="md:max-w-[400px] lg:max-w-[520px] aspect-video object-contain" alt="header-banner" />
       </div>
 
       {/* hero section banner ends */}
