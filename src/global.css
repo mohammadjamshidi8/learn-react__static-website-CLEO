@@ -1,24 +1,24 @@
 /* import fonts */
 @font-face {
     font-family: dana;
-    src: url(../fonts/dana-cufonfonts/dana\ black.ttf);
+    src: url(../fonts/dana-cufonfonts/black.ttf);
     font-weight: 800;
 }
 
 @font-face {
     font-family: dana;
-    src: url(../fonts/dana-cufonfonts/dana\ bold.ttf);
+    src: url(../fonts/dana-cufonfonts/bold.ttf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: dana;
-    src: url(../fonts/dana-cufonfonts/dana\ medium.ttf);
+    src: url(../fonts/dana-cufonfonts/medium.ttf);
     font-weight: 500;
 }
 
 @font-face {
     font-family: dana;
-    src: url(../fonts/dana-cufonfonts/dana\ light.ttf);
+    src: url(../fonts/dana-cufonfonts/light.ttf);
     font-weight: 300;
 }

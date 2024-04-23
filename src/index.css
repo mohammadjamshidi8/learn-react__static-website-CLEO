@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+
+}
+
 @layer base {
+
+
 
     body {
         @apply font-dana

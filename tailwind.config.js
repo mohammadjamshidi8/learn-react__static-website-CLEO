@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        dana : ['dana']
+        dana : ['dana'],
       },
       colors: {
         primary : '#415678',
