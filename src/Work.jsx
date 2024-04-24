@@ -33,7 +33,7 @@ export default function Work() {
         <h3 className="font-black text-4xl">پروسه کاری ما</h3>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 items-center gap-5 odd:bg-rose-400">
+      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 items-center gap-5">
         {boxObj.map((box) => 
           <Box {...box} />
         )}
