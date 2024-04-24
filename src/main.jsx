@@ -6,6 +6,7 @@ import WhyUs from './WhyUs.jsx'
 import Work from './Work.jsx'
 import SamplesWrapper from './SamplesWrapper.jsx'
 import Presentation from './Presentation.jsx'
+import WorkTogether from './WorkTogether.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Work />
     <SamplesWrapper />
     <Presentation/>
+    <WorkTogether/>
   </React.StrictMode>,
 )
