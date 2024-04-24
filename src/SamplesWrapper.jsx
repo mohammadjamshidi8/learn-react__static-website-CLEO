@@ -23,7 +23,7 @@ export default function SamplesWrapper() {
 
       <div className="w-full flex justify-center items-center gap-x-3 md:gap-x-8 md:text-lg mt-6">
         <div>
-          <input type="radio" name="sample" id="all" className="invisible opacity-0 peer" />
+          <input type="radio" name="sample" id="all" className="invisible opacity-0 peer" checked/>
           <label className="text-black transition duration-150 font-thin text-opacity-50 peer-checked:text-primary peer-checked:font-bold cursor-pointer"  htmlFor="all">همه</label>
         </div>
         <div>
