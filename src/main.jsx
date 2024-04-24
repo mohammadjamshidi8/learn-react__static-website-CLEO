@@ -4,6 +4,7 @@ import Menu from './Menu.jsx'
 import Hero from './Hero.jsx'
 import WhyUs from './WhyUs.jsx'
 import Work from './Work.jsx'
+import SamplesWrapper from './SamplesWrapper.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -12,5 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero/>
     <WhyUs/>
     <Work />
+    <SamplesWrapper />
   </React.StrictMode>,
 )
