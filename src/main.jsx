@@ -9,6 +9,7 @@ import Presentation from './Presentation.jsx'
 import WorkTogether from './WorkTogether.jsx'
 import Blog from './Blog.jsx'
 import JoinUs from './JoinUs.jsx'
+import Footer from './Footer.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,5 +23,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <WorkTogether/>
     <Blog/>
     <JoinUs/>
+    <Footer/>
   </React.StrictMode>,
 )
