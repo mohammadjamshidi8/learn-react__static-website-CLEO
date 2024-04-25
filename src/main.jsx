@@ -8,6 +8,7 @@ import SamplesWrapper from './SamplesWrapper.jsx'
 import Presentation from './Presentation.jsx'
 import WorkTogether from './WorkTogether.jsx'
 import Blog from './Blog.jsx'
+import JoinUs from './JoinUs.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -20,5 +21,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Presentation/>
     <WorkTogether/>
     <Blog/>
+    <JoinUs/>
   </React.StrictMode>,
 )
